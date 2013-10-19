@@ -1,0 +1,15 @@
+p {
+	/* selects all p tags */
+}
+
+div p {
+	/*selects all p tags within a div */
+}
+
+.class {
+	
+}
+
+#id {
+	font: 20px; /*format example */
+}
