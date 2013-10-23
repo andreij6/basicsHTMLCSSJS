@@ -45,6 +45,15 @@
 				<h3>Surface</h3>
 				<h3>Notable features</h3>
 				<h3>Final thoughts</h3>
+				<footer> <!-- doesnt have to be at the bottom of the page or even the bottom of its containing element / footers arent sectioning content-->
+					<p> <!-- dont show up in the document outline -->
+						About the author:
+					</p>
+					<p>
+					Jeff Layton lives in Ventura, California with his wife, small dog, and various house plants and writes about mountain
+					biking, Explore California, and the outdoors. Contact him at <a href="mailto:jeffl@explorcalifornia.org">jeffl@explorcalifornia.org </a> <!-- dont do this with your email -->
+					</p>
+				</footer>
 				<section><!--  -->
 					<h2>Comments</h2>					
 					<article>
@@ -84,15 +93,19 @@
 		</aside>
 		
 		<footer id = "pageFooter">
-			return to tope 
-			T: 866.555.4310
-			info@explorecalifornia.org
-			all content &copy; copyright 2011 Explore California.org | please read our terms of use
-			Explore California
-			5605 Nota Street
-			Ventura, CA 93003
-			866.555.4310
-			866.555.4315 (24 hour support)
+			<p><a href="#mainHeader"> return to top</a></p>
+			<p><a href="tel://866-555-4310" title="give us a call">T: 866.555.4310</a></p>
+			<p><a href="mailto:info@explorecalifornia.org">info@explorecalifornia.org</a></p>  <!-- dont do this or u will get spamed to death -->
+			<p>all content &copy; copyright 2011 Explore California.org | please read our <a href="terms.htm">terms of use</a></p>
+			<p>Explore California</p>
+			<p>
+				5605 Nota Street
+				Ventura, CA 93003
+			</p>
+			<p>
+				866.555.4310<br />
+				866.555.4315 (24 hour support)
+			</p>
 		</footer>
 		
 	</body>
